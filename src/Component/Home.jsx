@@ -27,6 +27,12 @@ export default function Home() {
 
             <Container maxW={'container.xl'} minH={'100vh'} p={'16'}>
                 <Heading textTransform={'uppercase'} py={'2'} borderBottom={'2px solid'} w={'fit-content'} m={'auto'}>Services</Heading>
+                <Stack h='full' p={'4'} alignItems={'center'} direction={['column', 'row']}>
+                    <Image src={img5} h={['40', '400']} filter={'hue-rotate(130deg)'} />
+                    <Text letterSpacing={'widest'} lineHeight={'190%'} p={['4', '16']} textAlign={'center'} fontFamily={'cursive'}>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod officia sint animi ullam quibusdam corporis quaerat ut a aliquid voluptate fugiat cumque similique aut voluptates recusandae, ad illum repellat et maxime pariatur voluptas quam sapiente ratione. Odio a perferendis magnam totam numquam fugit unde, minima eius quaerat amet ullam maxime dignissimos quidem nobis! Temporibus consectetur earum consequuntur voluptatum placeat a sunt laudantium pariatur molestias dolor sit magni nemo, culpa saepe, quod totam unde, deserunt fuga facilis assumenda alias? Dolorum nostrum magni eos inventore facere nulla molestias repellat maiores vel maxime. Fugiat enim magnam veritatis veniam tempora nobis minima quis reprehenderit iure officia, esse accusamus, debitis, id eos. Nesciunt neque, praesentium repellat vitae eligendi incidunt possimus ducimus tempore et eveniet repudiandae reiciendis dolore, labore soluta rerum debitis in nulla quasi laborum, veniam rem iusto. Odit ducimus non aspernatur maxime. Adipisci, vel.
+                    </Text>
+                </Stack>
             </Container>
         </Box>
     );
